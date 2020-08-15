@@ -1,0 +1,35 @@
+
+/*  id= identificador unico aun elemento de html
+    clase= un conjunto de estilos para html*/
+body {
+    background-color: rgb(209, 206, 202);
+   
+
+}
+
+/* id para unico*/
+#parrafo {
+    color: brown;
+}
+/* clase para varios*/
+.etiqueta {
+    color: darkblue;
+}
+.caja {
+    /* horizontal */
+    margin: 8px;
+    /* vertical */
+    padding: 8px;
+    background-color: darkgreen;
+    color: #dddddd;
+    border-style:   solid ;
+    border-color: red;
+    border-width: 8px;
+    border-radius: 10px;
+    border-left: 6px solid fuchsia;
+    /* altura */
+    height: 100px;
+    /* ancho */
+    width: 100px;
+    
+}

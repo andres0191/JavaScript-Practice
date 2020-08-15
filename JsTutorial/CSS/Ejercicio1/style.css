@@ -1,0 +1,42 @@
+.box{
+    background-color: white;
+    border-style: solid;
+    border-color: silver;
+    border-radius: 10px;
+    padding: 10px;
+   /*  text-decoration: underline; */
+    text-transform: uppercase;
+    text-indent: 15px;
+    letter-spacing: 3px;
+    word-spacing: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 50px 20px 20px rgba(245, 11, 11, 0);
+}
+.button {
+    padding: 5px;
+    color: teal;
+    place-content: inherit;
+    animation-direction: alternate;
+}
+.link {
+    padding: 5px;
+    color: teal;
+    place-content: inherit;
+    animation-direction: alternate;
+    text-decoration: none;
+}
+a {
+    color: tomato;
+}
+a:link{
+    color:blue;
+}
+a:active{
+    color:wheat;
+}
+a:hover{
+    color:blue;
+    text-decoration: underline;
+    background-color: #f999;
+    
+}
